@@ -1,10 +1,8 @@
 // Signature Africa — site scripts
 
-// Central booking link. Swap BOOKING_URL for the real Signature booking
-// system URL when it's ready — every "Book Now" button on the site reads
-// from this one place. Until then it opens a WhatsApp chat so enquiries
-// still reach the team.
-const BOOKING_URL = "https://wa.me/263784564644?text=" + encodeURIComponent("Hi Signature Africa, I'd like to make a booking / enquiry.");
+// Central booking link. Every "Book Now" button on the site reads from
+// this one place.
+const BOOKING_URL = "https://bookings.signatureafrica.com/";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Wire booking buttons
