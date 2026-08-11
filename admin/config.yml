@@ -1,0 +1,166 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/uploads"
+public_folder: "assets/img/uploads"
+
+locale: 'en'
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+      - file: "content.json"
+        label: "All Page Content"
+        name: "content"
+        fields:
+          - label: "Global (Phone, Email, Address)"
+            name: "global"
+            widget: "object"
+            fields:
+              - {label: "Phone Office", name: "phone_office", widget: "string"}
+              - {label: "Phone Office Tel", name: "phone_office_tel", widget: "string"}
+              - {label: "Phone Cell", name: "phone_cell", widget: "string"}
+              - {label: "Phone Cell Tel", name: "phone_cell_tel", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Footer Blurb", name: "footer_blurb", widget: "text"}
+          - label: "Home Page"
+            name: "home"
+            widget: "object"
+            fields:
+              - {label: "Hero Script", name: "hero_script", widget: "string"}
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "Hero Text", name: "hero_text", widget: "text"}
+              - {label: "Hero Image", name: "hero_image", widget: "image"}
+              - {label: "Intro Script", name: "intro_script", widget: "string"}
+              - {label: "Intro Heading", name: "intro_heading", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "text"}
+              - {label: "Intro Image", name: "intro_image", widget: "image"}
+              - {label: "Feature1 Script", name: "feature1_script", widget: "string"}
+              - {label: "Feature1 Heading", name: "feature1_heading", widget: "string"}
+              - {label: "Feature1 Text", name: "feature1_text", widget: "text"}
+              - {label: "Feature1 Image", name: "feature1_image", widget: "image"}
+              - {label: "Feature1 Link", name: "feature1_link", widget: "string"}
+              - {label: "Feature1 Link Label", name: "feature1_link_label", widget: "string"}
+              - {label: "Feature2 Script", name: "feature2_script", widget: "string"}
+              - {label: "Feature2 Heading", name: "feature2_heading", widget: "string"}
+              - {label: "Feature2 Text", name: "feature2_text", widget: "text"}
+              - {label: "Feature2 Image", name: "feature2_image", widget: "image"}
+              - {label: "Feature2 Link", name: "feature2_link", widget: "string"}
+              - {label: "Feature2 Link Label", name: "feature2_link_label", widget: "string"}
+              - {label: "Cta Script", name: "cta_script", widget: "string"}
+              - {label: "Cta Heading", name: "cta_heading", widget: "string"}
+              - {label: "Cta Text", name: "cta_text", widget: "string"}
+          - label: "Transfers Page"
+            name: "transfers"
+            widget: "object"
+            fields:
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "Hero Text", name: "hero_text", widget: "text"}
+              - {label: "Hero Image", name: "hero_image", widget: "image"}
+              - {label: "Intro Script", name: "intro_script", widget: "string"}
+              - {label: "Intro Heading", name: "intro_heading", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "text"}
+              - {label: "Intro Image", name: "intro_image", widget: "image"}
+              - {label: "R1 Name", name: "r1_name", widget: "string"}
+              - {label: "R1 Text", name: "r1_text", widget: "text"}
+              - {label: "R2 Name", name: "r2_name", widget: "string"}
+              - {label: "R2 Text", name: "r2_text", widget: "text"}
+              - {label: "R3 Name", name: "r3_name", widget: "string"}
+              - {label: "R3 Text", name: "r3_text", widget: "text"}
+              - {label: "R4 Name", name: "r4_name", widget: "string"}
+              - {label: "R4 Text", name: "r4_text", widget: "text"}
+              - {label: "R5 Name", name: "r5_name", widget: "string"}
+              - {label: "R5 Text", name: "r5_text", widget: "text"}
+          - label: "Our Fleet Page"
+            name: "fleet"
+            widget: "object"
+            fields:
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "Hero Text", name: "hero_text", widget: "text"}
+              - {label: "Hero Image", name: "hero_image", widget: "image"}
+              - {label: "V1 Script", name: "v1_script", widget: "string"}
+              - {label: "V1 Name", name: "v1_name", widget: "string"}
+              - {label: "V1 Tag", name: "v1_tag", widget: "string"}
+              - {label: "V1 Text", name: "v1_text", widget: "text"}
+              - {label: "V1 Image", name: "v1_image", widget: "image"}
+              - {label: "V2 Script", name: "v2_script", widget: "string"}
+              - {label: "V2 Name", name: "v2_name", widget: "string"}
+              - {label: "V2 Tag", name: "v2_tag", widget: "string"}
+              - {label: "V2 Text", name: "v2_text", widget: "text"}
+              - {label: "V2 Image", name: "v2_image", widget: "image"}
+              - {label: "V3 Script", name: "v3_script", widget: "string"}
+              - {label: "V3 Name", name: "v3_name", widget: "string"}
+              - {label: "V3 Tag", name: "v3_tag", widget: "string"}
+              - {label: "V3 Text", name: "v3_text", widget: "text"}
+              - {label: "V3 Image", name: "v3_image", widget: "image"}
+              - {label: "V4 Script", name: "v4_script", widget: "string"}
+              - {label: "V4 Name", name: "v4_name", widget: "string"}
+              - {label: "V4 Tag", name: "v4_tag", widget: "string"}
+              - {label: "V4 Text", name: "v4_text", widget: "text"}
+              - {label: "V4 Image", name: "v4_image", widget: "image"}
+              - {label: "V5 Script", name: "v5_script", widget: "string"}
+              - {label: "V5 Name", name: "v5_name", widget: "string"}
+              - {label: "V5 Tag", name: "v5_tag", widget: "string"}
+              - {label: "V5 Text", name: "v5_text", widget: "text"}
+              - {label: "V5 Image", name: "v5_image", widget: "image"}
+          - label: "Tours & Activities Page"
+            name: "tours"
+            widget: "object"
+            fields:
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "Hero Text", name: "hero_text", widget: "text"}
+              - {label: "Hero Image", name: "hero_image", widget: "image"}
+              - {label: "T1 Name", name: "t1_name", widget: "string"}
+              - {label: "T1 Text", name: "t1_text", widget: "text"}
+              - {label: "T1 Image", name: "t1_image", widget: "image"}
+              - {label: "T2 Name", name: "t2_name", widget: "string"}
+              - {label: "T2 Text", name: "t2_text", widget: "text"}
+              - {label: "T2 Image", name: "t2_image", widget: "image"}
+              - {label: "T3 Name", name: "t3_name", widget: "string"}
+              - {label: "T3 Text", name: "t3_text", widget: "text"}
+              - {label: "T3 Image", name: "t3_image", widget: "image"}
+              - {label: "Adventures Heading", name: "adventures_heading", widget: "string"}
+              - {label: "Adventures Text", name: "adventures_text", widget: "text"}
+              - {label: "T4 Name", name: "t4_name", widget: "string"}
+              - {label: "T4 Text", name: "t4_text", widget: "text"}
+              - {label: "T4 Image", name: "t4_image", widget: "image"}
+              - {label: "T5 Name", name: "t5_name", widget: "string"}
+              - {label: "T5 Text", name: "t5_text", widget: "text"}
+              - {label: "T5 Image", name: "t5_image", widget: "image"}
+          - label: "Frontier Aviation Page"
+            name: "aviation"
+            widget: "object"
+            fields:
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "Hero Text", name: "hero_text", widget: "text"}
+              - {label: "Hero Image", name: "hero_image", widget: "image"}
+              - {label: "Intro Script", name: "intro_script", widget: "string"}
+              - {label: "Intro Heading", name: "intro_heading", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "text"}
+              - {label: "Intro Image", name: "intro_image", widget: "image"}
+              - {label: "Spec Base", name: "spec_base", widget: "string"}
+              - {label: "Spec Year", name: "spec_year", widget: "string"}
+              - {label: "Spec Pax", name: "spec_pax", widget: "string"}
+              - {label: "Spec Crew", name: "spec_crew", widget: "string"}
+              - {label: "Spec Alt", name: "spec_alt", widget: "string"}
+              - {label: "Spec Speed", name: "spec_speed", widget: "string"}
+              - {label: "Spec Range", name: "spec_range", widget: "string"}
+              - {label: "D1 Name", name: "d1_name", widget: "string"}
+              - {label: "D1 Text", name: "d1_text", widget: "text"}
+              - {label: "D1 Image", name: "d1_image", widget: "image"}
+              - {label: "D2 Name", name: "d2_name", widget: "string"}
+              - {label: "D2 Text", name: "d2_text", widget: "text"}
+              - {label: "D2 Image", name: "d2_image", widget: "image"}
+              - {label: "D3 Name", name: "d3_name", widget: "string"}
+              - {label: "D3 Text", name: "d3_text", widget: "text"}
+              - {label: "D3 Image", name: "d3_image", widget: "image"}
+          - label: "Contact Page"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "Hero Text", name: "hero_text", widget: "text"}
+              - {label: "Hero Image", name: "hero_image", widget: "image"}
