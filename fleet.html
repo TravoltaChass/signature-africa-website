@@ -152,5 +152,14 @@
 <a href="https://wa.me/263784564644" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">&#9742;</a>
 <script src="assets/js/content.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  // Invite/reset-password emails link to the homepage with a token in the
+  // URL hash. Bounce straight to the editor so the widget can pick it up
+  // and show the "set your password" form.
+  if (window.netlifyIdentity && /invite_token=|recovery_token=|confirmation_token=/.test(window.location.hash)) {
+    window.location.replace("/admin/" + window.location.hash);
+  }
+</script>
 </body>
 </html>
