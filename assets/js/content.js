@@ -2,7 +2,7 @@
 // GitHub — so edits made in the /admin editor appear on the live site
 // within moments, with no rebuild or redeploy needed.
 (function () {
-  var RAW_BASE = "https://raw.githubusercontent.com/Travoltachass/signature-africa-website/main/";
+  var RAW_BASE = "https://raw.githubusercontent.com/TravoltaChass/signature-africa-website/main/";
 
   function resolveUrl(value) {
     if (/^https?:\/\//i.test(value)) return value;
