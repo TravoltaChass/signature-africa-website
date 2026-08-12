@@ -103,7 +103,7 @@ def header(active_slug):
     return f"""<header class="site-header">
   <div class="container">
     <a href="index.html" class="logo">
-      <img src="assets/img/logo-white.png" alt="Signature Africa">
+      <img src="assets/img/logo-horizontal-white.png" alt="Signature Africa">
     </a>
     <nav class="nav-links">
       {links}
