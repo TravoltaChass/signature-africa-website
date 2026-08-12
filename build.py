@@ -445,7 +445,7 @@ def page_fleet():
   <div class="container">
     <span class="script">Not Sure Which Vehicle You Need?</span>
     <h2>Tell Us Your Group Size</h2>
-    <p>We'll match you with the right vehicle — and driver-guide — for the journey ahead.</p>
+    <p>We'll match you with the right vehicle, and driver-guide, for the journey ahead.</p>
     <a href="#" class="btn btn-gold js-book-btn">Book Now</a>
   </div>
 </section>
@@ -642,7 +642,7 @@ write("kasane.html", page(
 
 write("fleet.html", page(
     "Our Fleet | Signature Africa",
-    "A luxury fleet built for every party size — Ineos Grenadier, Toyota Majesty, Quantum, Hiace, Hino Coaster and our King Long coach.",
+    "A luxury fleet built for every party size, Ineos Grenadier, Toyota Majesty, Quantum, Hiace, Hino Coaster and our King Long coach.",
     "fleet.html", page_fleet()))
 
 write("aviation.html", page(
@@ -652,7 +652,7 @@ write("aviation.html", page(
 
 write("contact.html", page(
     "Contact Us | Signature Africa",
-    "Get in touch with Signature Africa in Victoria Falls, Zimbabwe — office, WhatsApp and email details.",
+    "Get in touch with Signature Africa in Victoria Falls, Zimbabwe, office, WhatsApp and email details.",
     "contact.html", page_contact()))
 
 print("Build complete.")
