@@ -166,6 +166,7 @@ p{margin:0 0 1em;color:var(--ink-soft);font-weight:300;}
 .offer-text p{margin-bottom:0;max-width:560px;}
 .offer-arrow{font-size:1.3rem;color:var(--navy);transition:transform .25s ease;}
 .offer-row:hover .offer-arrow{transform:translateX(6px);color:var(--gold);}
+.offer-list--plain .offer-row{grid-template-columns:1fr auto;}
 
 /* Split (alternating full-bleed feature) */
 .split{display:grid;grid-template-columns:1fr 1fr;min-height:640px;}
@@ -274,6 +275,7 @@ p{margin:0 0 1em;color:var(--ink-soft);font-weight:300;}
   .contact-info{padding:64px 32px;}
   .footer-grid{grid-template-columns:1fr 1fr;row-gap:36px;}
   .offer-row{grid-template-columns:40px 1fr auto;}
+  .offer-list--plain .offer-row{grid-template-columns:1fr auto;}
 }
 @media (max-width:760px){
   .nav-links,.nav-cta{display:none;}
