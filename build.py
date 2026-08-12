@@ -416,7 +416,7 @@ def page_kasane():
 def page_fleet():
     p = "fleet"
     blocks = ""
-    for i in range(1, 6):
+    for i in range(1, 7):
         light = " light" if i % 2 == 0 else ""
         rev = " reverse" if i % 2 == 0 else ""
         blocks += f"""
@@ -642,7 +642,7 @@ write("kasane.html", page(
 
 write("fleet.html", page(
     "Our Fleet | Signature Africa",
-    "A luxury fleet built for every party size — Ineos Grenadier, Toyota Prado, Quantum, Hiace and our King Long coach.",
+    "A luxury fleet built for every party size — Ineos Grenadier, Toyota Majesty, Quantum, Hiace, Hino Coaster and our King Long coach.",
     "fleet.html", page_fleet()))
 
 write("aviation.html", page(

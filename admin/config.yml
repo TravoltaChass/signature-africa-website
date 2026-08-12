@@ -232,34 +232,39 @@ collections:
             name: "fleet"
             widget: "object"
             fields:
-              - {label: "V5 Name", name: "v5_name", widget: "string"}
-              - {label: "V5 Script", name: "v5_script", widget: "string"}
-              - {label: "V4 Script", name: "v4_script", widget: "string"}
-              - {label: "V4 Name", name: "v4_name", widget: "string"}
-              - {label: "V3 Script", name: "v3_script", widget: "string"}
-              - {label: "V5 Text", name: "v5_text", widget: "text"}
-              - {label: "V3 Name", name: "v3_name", widget: "string"}
-              - {label: "V4 Text", name: "v4_text", widget: "text"}
-              - {label: "V2 Name", name: "v2_name", widget: "string"}
-              - {label: "V2 Script", name: "v2_script", widget: "string"}
-              - {label: "V3 Text", name: "v3_text", widget: "text"}
-              - {label: "V1 Name", name: "v1_name", widget: "string"}
-              - {label: "V1 Script", name: "v1_script", widget: "string"}
-              - {label: "V2 Text", name: "v2_text", widget: "text"}
-              - {label: "V1 Text", name: "v1_text", widget: "text"}
+              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
               - {label: "Hero Text", name: "hero_text", widget: "text"}
               - {label: "Hero Image", name: "hero_image", widget: "image"}
+              - {label: "V1 Script", name: "v1_script", widget: "string"}
+              - {label: "V1 Name", name: "v1_name", widget: "string"}
               - {label: "V1 Tag", name: "v1_tag", widget: "string"}
+              - {label: "V1 Text", name: "v1_text", widget: "text"}
               - {label: "V1 Image", name: "v1_image", widget: "image"}
+              - {label: "V2 Script", name: "v2_script", widget: "string"}
+              - {label: "V2 Name", name: "v2_name", widget: "string"}
               - {label: "V2 Tag", name: "v2_tag", widget: "string"}
+              - {label: "V2 Text", name: "v2_text", widget: "text"}
               - {label: "V2 Image", name: "v2_image", widget: "image"}
+              - {label: "V3 Script", name: "v3_script", widget: "string"}
+              - {label: "V3 Name", name: "v3_name", widget: "string"}
               - {label: "V3 Tag", name: "v3_tag", widget: "string"}
+              - {label: "V3 Text", name: "v3_text", widget: "text"}
               - {label: "V3 Image", name: "v3_image", widget: "image"}
+              - {label: "V4 Script", name: "v4_script", widget: "string"}
+              - {label: "V4 Name", name: "v4_name", widget: "string"}
               - {label: "V4 Tag", name: "v4_tag", widget: "string"}
+              - {label: "V4 Text", name: "v4_text", widget: "text"}
               - {label: "V4 Image", name: "v4_image", widget: "image"}
+              - {label: "V5 Script", name: "v5_script", widget: "string"}
+              - {label: "V5 Name", name: "v5_name", widget: "string"}
               - {label: "V5 Tag", name: "v5_tag", widget: "string"}
+              - {label: "V5 Text", name: "v5_text", widget: "text"}
               - {label: "V5 Image", name: "v5_image", widget: "image"}
-              - {label: "Hero Heading", name: "hero_heading", widget: "string"}
+              - {label: "V6 Script", name: "v6_script", widget: "string"}
+              - {label: "V6 Name", name: "v6_name", widget: "string"}
+              - {label: "V6 Tag", name: "v6_tag", widget: "string"}
+              - {label: "V6 Text", name: "v6_text", widget: "text"}
+              - {label: "V6 Image", name: "v6_image", widget: "image"}
           - label: "Frontier Aviation Page"
             name: "aviation"
             widget: "object"
